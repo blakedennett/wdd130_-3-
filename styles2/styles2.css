@@ -3,7 +3,55 @@
     line-height: 1.5em;
 }
 
-#active {
-    background-color: rgb(20, 9, 9);
-    color: rgb(16, 17, 17);
+/* #active {
+    background-color: rgb(92, 58, 172);
+    color: rgb(28, 209, 209);
+} */
+
+img {
+    width: 30%;
+}
+
+img {
+    width: 80%;
+}
+
+* {
+    border: 2px solid blue;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
 }
