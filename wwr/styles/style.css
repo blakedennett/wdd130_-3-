@@ -59,6 +59,7 @@ footer {
 
 .home-title {
     color: black;
+    font-family: 'Arial', Times, serif;
 }
 h4 {
     color: black;
@@ -66,6 +67,7 @@ h4 {
 
 .msg h2 {
     color: black;
+    font-family: 'georgia', Times, serif;
 }
 .msg p {
     color: black;
