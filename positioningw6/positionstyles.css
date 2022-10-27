@@ -214,7 +214,7 @@
   overflow: auto;
 } 
 
-.activity6 {
+/* .activity6 {
   width: 100%; 
   margin: 20px auto; 
   font-family: Arial, sans-serif; 
@@ -222,7 +222,7 @@
   padding: 10px; 
   clear:both; 
   overflow: auto;
-}
+} */
 
 .hint {
   border: 1px solid grey;

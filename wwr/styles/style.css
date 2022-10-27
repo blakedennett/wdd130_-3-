@@ -14,6 +14,20 @@ nav a {
     text-align: center;
 }
 
+#hero-msg h4 {
+    color: white;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 #hero-img {
     width: 100%;
 }
@@ -39,9 +53,11 @@ body {
 header {
     background-color: lightgreen;
     color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
-    color: rgb(252, 250, 250);
+    color: white;
 }
 .book, .join {
     color: black;
@@ -124,6 +140,8 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 footer .social img { 
@@ -146,4 +164,14 @@ main section img {
 .mountains {
     margin-top: 40px;
     margin-bottom: 100px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
 }
