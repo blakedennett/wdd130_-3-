@@ -223,6 +223,66 @@ main section img {
     grid-template-columns: repeat(10, 1fr); 
 }
 
+
+
+/* Below this line is for the blog page */
+
+
+
+
+.main_grid {
+    display: grid;
+    background-color: black;
+}
+
+.blog_title {
+    font-size: 120px;
+    color: white;
+    background-color: tan;
+}
+
+.booking1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+}
+
+.highlights {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.encounters {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title_text {
+    font-size: xx-large;
+    color: green;
+}
+
+.paragraph_text {
+    color: white;
+    font-size: large;
+}
+
+.sheep_image {
+    /* padding-bottom: 5%; */
+    padding-top: 5%;
+    margin-top: 10%;
+    background-color: tan;
+    height: 300px;
+}
+
+.sheep {
+    height: 80%;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
